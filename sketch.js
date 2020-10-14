@@ -36,7 +36,7 @@ console.log(displayHeight);
   fish.addImage("fish", fishImage);
   fish.scale=0.5;
   fish.velocityY=6;
-  fish.debug=true;
+  fish.debug=false;
   fish.setCollider("circle",0,0,80);
 
   title=createSprite(600, 50, 50,20);
@@ -111,7 +111,7 @@ function shark1(){
     shark1.addImage("Shark",shark2Image);
     shark1.velocityX=-6;
     shark1.scale=1.5;
-    shark1.debug=true;
+    shark1.debug=false;
     shark1.setCollider("rectangle",0,0,shark1.width-60,shark1.height);
     shark1Group.add(shark1);
   }
@@ -123,7 +123,7 @@ function shark2(){
     shark2.addImage("Shark",shark1Image);
     shark2.velocityX=-6;
     shark2.scale=1.5;
-    shark2.debug=true;
+    shark2.debug=false;
     shark2.setCollider("rectangle",0,0,shark2.width-60,shark2.height);
     shark2Group.add(shark2);
   }
